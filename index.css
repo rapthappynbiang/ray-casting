@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes animate {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+#animate-div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: auto;
+  animation: animate 4s;
+  animation-play-state: running;
+  animation-delay: 1s;
+}
